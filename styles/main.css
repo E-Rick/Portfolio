@@ -277,8 +277,8 @@ p a:hover {
 
 .bg-roomly {
 	background: #fc8eac;
-	background-image: url('../images/roomly/Roomly-landing-01.svg');
-	background-image: url('../images/roomly/Roomly-landing-01.svg'), linear-gradient(0deg, #f7a8ab, #cf5257);
+	background-image: url('../images/roomly/roomly-landing2-01.svg');
+	background-image: url('../images/roomly/roomly-landing2-01.svg'), linear-gradient(0deg, #f7a8ab, #cf5257);
 	background-position: 50% 0%;
 }
 
