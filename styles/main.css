@@ -268,18 +268,18 @@ p a:hover {
 	background-position: 50% 50%;
 }
 
-.bg-calcucafe {
+.bg-emetrics {
 	background: #e98034;
-	background-image: url('../images/cards/calcucafe.png');
-	background-image: url('../images/cards/calcucafe.png'), linear-gradient(0deg, #f4ba67, #e98034);
+	background-image: url('../images/cards/emetrics.png');
+	background-image: url('../images/cards/emetrics.png'), linear-gradient(0deg, #f4ba67, #e98034);
 	background-position: 50% 0%;
 }
 
-.bg-emmim {
+.bg-roomly {
 	background: #fc8eac;
-	background-image: url('../images/cards/emmim.png');
-	background-image: url('../images/cards/emmim.png'), linear-gradient(0deg, #f7a8ab, #cf5257);
-	background-position: 0% 0%;
+	background-image: url('../images/roomly/Roomly-landing-01.svg');
+	background-image: url('../images/roomly/Roomly-landing-01.svg'), linear-gradient(0deg, #f7a8ab, #cf5257);
+	background-position: 50% 0%;
 }
 
 .frame {
@@ -342,6 +342,20 @@ p a:hover {
 
 main {
 	padding: 120px 0;
+}
+
+#roomly-landing {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	max-width: 100%;
+}
+@media only screen and (max-width: 600px) {
+	#roomly-landing {
+		width: 100%;
+		max-width: 100%;
+	}
 }
 
 img {
@@ -631,8 +645,12 @@ section {
 		padding-left: var(--padding-xl);
 	}
 }
-
+/* Small screen Columns */
 @media (max-width: 650px) {
+	.bg-pytris {
+		background-position: 0% -50%;
+	}
+
 	.scroll-wrapper {
 		flex-direction: column;
 	}
