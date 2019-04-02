@@ -248,7 +248,7 @@ p a:hover {
 	background: #5e5e5e;
 	background-image: url('../images/cards/tetris2.jpg');
 	background-image: url('../images/cards/tetris2.jpg'), linear-gradient(0deg, #576270, #182f7b);
-	background-position: 50% 0%;
+	background-position: 40% 0%;
 }
 
 .bg-luck {
@@ -648,7 +648,7 @@ section {
 /* Small screen Columns */
 @media (max-width: 650px) {
 	.bg-pytris {
-		background-position: 0% -50%;
+		background-position: 0px 0px;
 	}
 
 	.scroll-wrapper {
