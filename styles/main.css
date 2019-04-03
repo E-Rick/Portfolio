@@ -97,8 +97,14 @@ p a:hover {
 	border-color: transparent;
 }
 
-#pytris-demo {
+.pytris-img {
 	display: block;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.road-rage-img {
+	display: inline;
 	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
@@ -246,8 +252,8 @@ p a:hover {
 
 .bg-pytris {
 	background: #5e5e5e;
-	background-image: url('../images/cards/tetris2.jpg');
-	background-image: url('../images/cards/tetris2.jpg'), linear-gradient(0deg, #576270, #182f7b);
+	background-image: url('../images/cards/pytris.jpg');
+	background-image: url('../images/cards/pytris.jpg'), linear-gradient(0deg, #576270, #182f7b);
 	background-position: 40% 0%;
 }
 
@@ -464,8 +470,8 @@ img {
 	opacity: 1;
 }
 
-.bg-simeon {
-	background: url('../images/simeon.jpg');
+.bg-erick {
+	background: url('../images/erick.jpg');
 	background-size: cover;
 	background-position: center;
 	width: 400px;
@@ -647,10 +653,11 @@ section {
 }
 /* Small screen Columns */
 @media (max-width: 650px) {
-	.bg-pytris {
-		background-position: 0px 0px;
+	.small {
+		background-image: url('../images/cards/pytris-small.svg');
+		background-image: url('../images/cards/pytris-small.svg'), linear-gradient(0deg, #576270, #182f7b);
+		background-position: 40% 0%;
 	}
-
 	.scroll-wrapper {
 		flex-direction: column;
 	}
