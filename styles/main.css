@@ -256,6 +256,12 @@ p a:hover {
 	background-image: url('../images/cards/pytris.jpg'), linear-gradient(0deg, #576270, #182f7b);
 	background-position: 40% 0%;
 }
+.bg-colorgame {
+	background: #5e5e5e;
+	background-image: url('../images/cards/colorgame-card.svg');
+	background-image: url('../images/cards/colorgame-card.svg'), linear-gradient(0deg, #576270, #182f7b);
+	background-position: 40% 0%;
+}
 
 .bg-luck {
 	background: #5e5e5e;
