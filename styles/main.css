@@ -263,10 +263,10 @@ p a:hover {
 	background-position: 40% 0%;
 }
 
-.bg-luck {
+.bg-browser {
 	background: #5e5e5e;
-	background-image: url('../images/cards/luck.png');
-	background-image: url('../images/cards/luck.png'), linear-gradient(0deg, #f9d797, #d4ad5a);
+	background-image: url('../images/cards/browser-01.svg');
+	background-image: url('../images/cards/browser-01.svg'), linear-gradient(0deg, #f9d797, #d4ad5a);
 	background-position: 50% 0%;
 }
 .bg-luck-black {
