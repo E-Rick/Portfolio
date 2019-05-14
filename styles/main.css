@@ -258,15 +258,15 @@ p a:hover {
 }
 .bg-colorgame {
 	background: #5e5e5e;
-	background-image: url('../images/cards/colorgame.svg');
-	background-image: url('../images/cards/colorgame.svg'), linear-gradient(0deg, #576270, #4682b4);
+	background-image: url('../images/cards/colorgame.png');
+	background-image: url('../images/cards/colorgame.png'), linear-gradient(0deg, #576270, #4682b4);
 	background-position: 40% 0%;
 }
 
 .bg-browser {
 	background: #5e5e5e;
-	background-image: url('../images/cards/youtubebrowser.svg');
-	background-image: url('../images/cards/youtubebrowser.svg'), linear-gradient(0deg, #f9d797, #d4ad5a);
+	background-image: url('../images/cards/youtubebrowser.png');
+	background-image: url('../images/cards/youtubebrowser.png'), linear-gradient(0deg, #f9d797, #d4ad5a);
 	background-position: 50% 0%;
 }
 .bg-luck-black {
@@ -289,8 +289,8 @@ p a:hover {
 
 .bg-roomly {
 	background: #fc8eac;
-	background-image: url('../images/cards/roomly.svg');
-	background-image: url('../images/cards/roomly.svg'), linear-gradient(0deg, #f7a8ab, #cf5257);
+	background-image: url('../images/cards/roomly.png');
+	background-image: url('../images/cards/roomly.png'), linear-gradient(0deg, #f7a8ab, #cf5257);
 	background-position: 50% 0%;
 }
 
@@ -660,8 +660,8 @@ section {
 /* Small screen Columns */
 @media (max-width: 650px) {
 	.small {
-		background-image: url('../images/cards/pytris-small.svg');
-		background-image: url('../images/cards/pytris-small.svg'), linear-gradient(0deg, #576270, #182f7b);
+		background-image: url('../images/cards/pytris.jpg');
+		background-image: url('../images/cards/pytris.jpg'), linear-gradient(0deg, #576270, #182f7b);
 		background-position: 40% 0%;
 	}
 	.scroll-wrapper {
