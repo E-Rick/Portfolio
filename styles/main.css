@@ -294,6 +294,15 @@ p a:hover {
 	background-position: 50% 0%;
 }
 
+.infobox {
+	font-size: 75%;
+	display: block;
+	margin-bottom: 15px;
+	border-left: 2px solid var(--gold);
+	background: rgba(204, 156, 83, 0.1);
+	padding: 5px 10px;
+}
+
 .frame {
 	border-left: 1px solid #a07c45;
 	position: center;
