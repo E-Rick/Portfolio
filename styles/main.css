@@ -266,7 +266,8 @@ p a:hover {
 .bg-browser {
 	background: #5e5e5e;
 	background-image: url('../images/cards/youtubebrowser.png');
-	background-image: url('../images/cards/youtubebrowser.png'), linear-gradient(0deg, #f9d797, #d4ad5a);
+	background-image: url('../images/cards/youtubebrowser.png'),
+		linear-gradient(0deg, #f9d797, #d4ad5a);
 	background-position: 50% 0%;
 }
 .bg-luck-black {
@@ -284,6 +285,12 @@ p a:hover {
 	background: #e98034;
 	background-image: url('../images/cards/emetrics.png');
 	background-image: url('../images/cards/emetrics.png'), linear-gradient(0deg, #f4ba67, #e98034);
+	background-position: 30% 0%;
+}
+.bg-leaderboard {
+	background: #03efcb;
+	background-image: url('../images/cards/leaderboard.png');
+	background-image: url('../images/cards/leaderboard.png'), linear-gradient(0deg, #322850, #03efcb);
 	background-position: 30% 0%;
 }
 
@@ -670,7 +677,8 @@ section {
 @media (max-width: 650px) {
 	.small {
 		background-image: url('../images/cards/pytris-small.svg');
-		background-image: url('../images/cards/pytris-small.svg'), linear-gradient(0deg, #576270, #182f7b);
+		background-image: url('../images/cards/pytris-small.svg'),
+			linear-gradient(0deg, #576270, #182f7b);
 		background-position: 40% 0%;
 	}
 	.scroll-wrapper {
