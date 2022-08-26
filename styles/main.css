@@ -313,6 +313,12 @@ p a:hover {
 	background-image: url('../images/cards/leaderboard.png'), linear-gradient(0deg, #322850, #03efcb);
 	background-position: 30% 0%;
 }
+.bg-music {
+	background: #dda15e;
+	background-image: url('../images/cards/music-metadata.png');
+	background-image: url('../images/cards/music-metadata.png'), linear-gradient(0deg, #283618, #dda15e);
+	background-position: 20% 50%;
+}
 .bg-spline {
 	background: #0e1129;
 	background-image: url('../images/cards/spline-card.png');
