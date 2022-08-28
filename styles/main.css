@@ -319,6 +319,12 @@ p a:hover {
 	background-image: url('../images/cards/music-metadata.png'), linear-gradient(0deg, #283618, #dda15e);
 	background-position: 20% 50%;
 }
+.bg-mecx {
+	background: #E57A55;
+	background-image: url('../images/cards/mecx-card.png');
+	background-image: url('../images/cards/mecx-card.png'), linear-gradient(0deg, #47ABE5, #AAD8F2);
+	background-position: 20% 50%;
+}
 .bg-spline {
 	background: #0e1129;
 	background-image: url('../images/cards/spline-card.png');
@@ -403,6 +409,15 @@ p a:hover {
 main {
 	padding: 120px 0;
 }
+
+#mecx-colors {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	max-width: 100%;
+}
+
 
 #roomly-landing {
 	display: block;
