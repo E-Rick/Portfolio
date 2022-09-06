@@ -40,6 +40,8 @@ html {
 body {
 	height: 100vh;
 	width: 100vw;
+	z-index: 1;
+	position: absolute;
 	transition: 300ms transform;
 }
 
@@ -336,6 +338,13 @@ p a:hover {
 	background: #fc8eac;
 	background-image: url('../images/cards/roomly.png');
 	background-image: url('../images/cards/roomly.png'), linear-gradient(0deg, #f7a8ab, #cf5257);
+	background-position: 50% 0%;
+}
+
+.bg-nouns {
+	background: #fc8eac;
+	background-image: url('../images/cards/nouns-card.png');
+	background-image: url('../images/cards/nouns-card.png'), linear-gradient(0deg, #f7a8ab, #cf5257);
 	background-position: 50% 0%;
 }
 
@@ -802,6 +811,17 @@ section {
 	.header .logo {
 		justify-content: center;
 	}
+}
+
+#gradient-canvas {
+  width:100%;
+	position: absolute;
+	z-index: 0;
+  height:200vh;
+  --gradient-color-1: #FE6860; 
+  --gradient-color-2: #FE8A71; 
+  --gradient-color-3: #D9BBAE;  
+  --gradient-color-4: #F3C9BF;
 }
 
 /**/
