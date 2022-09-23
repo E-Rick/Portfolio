@@ -71,4 +71,7 @@ window.onload = function() {
   //document.addEventListener('scroll', fadeIntro);
   //fadeIntro();
   document.addEventListener('wheel', horizontalScroll);
+  const gradient = new Gradient('#gradient-canvas')
+    // gradient.init('#gradient-canvas')
+  gradient.initGradient('#gradient-canvas')
 };

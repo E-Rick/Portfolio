@@ -303,6 +303,25 @@ p a:hover {
 	background-position: 50% 50%;
 }
 
+.bg-zora {
+	background: #2d0836;
+	background-image: url('../images/cards/recent-editions-card.png');
+	background-image: url('../images/cards/recent-editions-card.png'), linear-gradient(0deg, #2d0836, red, #ed658f);
+	background-position: 50% 0%;
+}
+.bg-hologram {
+	background: #DCED71;
+	background-image: url('../images/cards/hologram-card.png');
+	background-image: url('../images/cards/hologram-card.png'), linear-gradient(0deg, #1e1f24, red, #34414B);
+	background-position: 50% 0%;
+}
+.bg-regen {
+	background: #2d0836;
+	background-image: url('../images/cards/regen-card.png');
+	background-image: url('../images/cards/regen-card.png'), linear-gradient(0deg, #2d0836, 283618, #ed658f);
+	background-position: 50% 50%;
+}
+
 .bg-emetrics {
 	background: #e98034;
 	background-image: url('../images/cards/emetrics.png');
@@ -317,15 +336,15 @@ p a:hover {
 }
 .bg-music {
 	background: #dda15e;
-	background-image: url('../images/cards/music-metadata.png');
-	background-image: url('../images/cards/music-metadata.png'), linear-gradient(0deg, #283618, #dda15e);
-	background-position: 20% 50%;
+	background-image: url('../images/cards/music-card.png');
+	background-image: url('../images/cards/music-card.png'), linear-gradient(0deg, #283618, #dda15e);
+	background-position: 50% 0%;
 }
 .bg-mecx {
 	background: #E57A55;
 	background-image: url('../images/cards/mecx-card.png');
 	background-image: url('../images/cards/mecx-card.png'), linear-gradient(0deg, #47ABE5, #AAD8F2);
-	background-position: 20% 50%;
+	background-position: 50% 0%;
 }
 .bg-spline {
 	background: #0e1129;
@@ -825,3 +844,5 @@ section {
 }
 
 /**/
+
+
